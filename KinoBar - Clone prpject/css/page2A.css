@@ -1,0 +1,57 @@
+.main1{
+    margin: 300px 265px;
+    min-width: 900px;
+    height: 1600px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 3px white;
+}
+@media screen and (max-width: 1100px) {
+    .main1{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+.col-3{
+    padding: 0px 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.tittle-of-page{
+    height: 60px;
+}
+.p-of-page{
+    font-size: 22px;
+    margin: 0px;
+}
+.tittle-of-page hr{
+    border: 1px ridge #FF7A00;
+    background-color: #FF7A00;
+    opacity: 1;
+    margin-top: 5px;
+}
+.mid-part{
+    
+}
+.mid-part p{
+    font-size: 12px;
+    font-weight: 550;
+}
+.mid-part input{
+    margin-bottom: 15px;
+    background-color: rgb(243, 243, 243);
+    border: 1px ridge lightgray;
+}
+.mid-part select{
+    margin-bottom: 15px;
+    width: 208px;
+}
+.mid-part a{
+    text-decoration: none;
+}
+.comment{
+    height: 200px;
+    width: 100%;
+    background-color: rgb(243, 243, 243);
+    border: 1px ridge lightgray;
+}

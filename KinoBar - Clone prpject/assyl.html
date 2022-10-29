@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kinobar.sdu</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="icon" href="images/kinogo-logo.png" />
+    <link rel="stylesheet" href="./css/mainA.css" />
+    <link rel="stylesheet" href="./css/generalA.css" />
+</head>
+<body>
+    <main class="main">
+        <div class="header">
+            <div class="logo">
+                <img src="images/logo.png" alt="" />
+            </div>
+            <div class="center">
+                <input class="input" input="text" type="text" placeholder="Введите название фильма">
+                <button class="search-btn">Начать поиск</button>
+            </div>
+            <div class="end-header">
+                <div class="p-part-header">
+                    <a class="p-header-href" href="#"><p class="p1">Войти</p></a>
+                    <a class="p-header-href" href="#"><p class="p2">Регистрация</p></a>
+                </div>
+                <div class="ava">
+                    <img class="ava-client" src="images/ava-client.png" alt="">
+                </div>
+            </div>
+        </div>  
+        <div class="menu">
+            <a class="menu-href" href="http://127.0.0.1:5500/assyl.html"><p class="p-menu">ГЛАВНАЯ</p></a>
+            <a class="menu-href" href="http://127.0.0.1:5500/bakzhan.html"><p class="p-menu">СКОРО В КИНО</p></a>
+            <a class="menu-href" href="#"><p class="p-menu">ОНЛАЙН КАНАЛЫ</p></a>
+            <a class="menu-href" href="http://127.0.0.1:5500/assyl3.html"><p class="p-menu">РАДИО</p></a>
+            <a class="menu-href" href="http://127.0.0.1:5500/bakzhan2.html"><p class="p-menu">ПОДБОРКИ КИНО</p></a>
+            <a class="menu-href" href="http://127.0.0.1:5500/assyl2.html"><p class="p-menu">КОНТАКТЫ</p></a>
+            <a class="menu-href" href="#"><p class="p-menu">ПРАВООБЛАДАТЕЛЯМ</p></a>
+        </div>
+
+
+        <div class="content"> 
+            <div class="col-1">
+                <div class="tittle-rec">
+                    <div class="part-1">
+                        <img class="top-img" src="images/top_ic.png" alt="">
+                    </div>
+                    <div class="part-2">
+                        <p class="p-nov">Новинки кино</p>
+                    </div>
+                </div>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="d-flex flex-row justify-content-around">
+                            <div class="img-of-slider">
+                                <img src="images/img1.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Не беспокойся, дорогая / Не волнуйся, солнышко (2022)</b>
+                                </div>
+                            </div>
+                            <div class="img-of-slider">
+                                <img src="images/img2.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Кто там? (2022)</b>
+                                </div>
+                            </div>
+                            <div class="img-of-slider">
+                                <img src="images/img3.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Не дыши: Начало (2022)</b>
+                                </div>
+                            </div>
+                            <div class="img-of-slider">
+                                <img src="images/img4.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Хеллоуин заканчивается (2022)</b>
+                                </div>
+                            </div>
+                        </div>
+                      </div> 
+                      <div class="carousel-item">
+                        <div class="d-flex flex-row justify-content-around">
+                            <div class="img-of-slider">
+                                <img src="images/img5.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Проклятиен Бридж-Холлоу (2022)</b>
+                                </div>
+                            </div>
+                            <div class="img-of-slider">
+                                <img src="images/img6.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Несчастный случай: Каникулы киллера (2022)</b>
+                                </div>
+                            </div>
+                            <div class="img-of-slider">
+                                <img src="images/img7.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Умереть за Доллар (2022)</b>
+                                </div>
+                            </div>
+                            <div class="img-of-slider">
+                                <img src="images/img8.jpg" class="d-block img-films" alt="...">
+                                <div class="about-film">
+                                    <b class="film-description">Самая Везучая девушка (2022)</b>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev" style="position: absolute; left:-30px;">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden btn-prev">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next" style="position: absolute; right:-30px;">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <div class="tittle-rec">
+                    <div class="part-1">
+                        <img class="day-img" src="images/day_ic.png" alt="">
+                    </div>
+                    <div class="part-2">
+                        <p class="p-nov">Фильм дня</p>
+                    </div>
+                </div>
+
+                <div class="film-of-day" style="border-top: none;">
+                    <div class="img-of-day-div">
+                        <img class="img-of-day" src="images/img9.jpg" alt="">
+                        <div class="hover-play">
+                            <img class="img-of-play" src="images/play-button.png" alt="">
+                        </div>
+                    </div>
+                    <div class="text-of-day">
+                        <div class="tittle">
+                            <p class="tittle-of-day">Братец медвежонок (2003)</p>
+                            <p class="hd-of-day">HDRip</p>
+                        </div>
+                        <div class="description-of-day">
+                            <div class="desc">
+                                <div class="question">Год выхода:</div>
+                                <div class="ans">2003</div>
+                            </div>
+                            <div class="desc">
+                                <div class="question">Жанр:</div>
+                                <div class="ans">Приключения, Мультфильмы, Семейный, Фэнтези, Фильм дня, Walt Disney – подборка лучших мультфильмов</div>
+                            </div>
+                            <div class="desc">
+                                <div class="question">Режиссер:</div>
+                                <div class="ans">Аарон Блейс, Роберт Уолкер</div>
+                            </div>
+                            <div class="desc">
+                                <div class="question">В ролях:</div>
+                                <div class="ans">Хоакин Феникс, Джереми Суарес, Джейсон Райз, Рик Морэнис, Дэйв Томас, Д.Б. Суини, Джоан Коуплэнд, Майкл Кларк Дункан,</div>
+                            </div>
+                            <hr style="color: gray;">
+                            <p class="d-flex align-items-top" style="font-size: 12px;">История эта приключилась очень давно, когда на Земле еще жили мамонты, а южные моря были укрыты льдами. Кенаи был охотником – храбрым и ловким мужчиной. Однажды он убил медведицу и накликал...</p>
+                        </div>
+                        <div class="end-of-day">
+                            <div class="part-of-1">
+                                <img class="tochka" src="images/opt_menu.png" alt="">
+                                <p>17 марта 2015</p>
+                            </div>
+                            <div class="part-of-2">
+                                <img class="tochka" src="images/opt_menu.png" alt="">
+                                <p>Коментариев: 0</p>
+                            </div>
+                            <div class="btn-smotret">
+                                <img src="images/opt_menu.png" alt="">
+                                <img class="img-smotret" src="images/btn-smotret.png" alt="">
+                                <a class="btn-smotret-a" href="#">Смотреть</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tittle-rec" style="margin-top: 20px;">
+                    <div class="part-2">
+                        <p class="p-nov">Последние поступления фильмов</p>
+                    </div>
+                </div>
+
+                <div class="film-cotolog">
+                    <div class="film-of-day">
+                        <div class="img-of-day-div">
+                            <img class="img-of-day" src="images/img1.jpg" alt="">
+                            <div class="hover-play">
+                                <img class="img-of-play" src="images/play-button.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-of-day">
+                            <div class="tittle">
+                                <p class="tittle-of-day">Не беспокойся, дорогая / Не волнуйся, солнышко</p>
+                                <p class="hd-of-day">TS</p>
+                            </div>
+                            <div class="description-of-day">
+                                <div class="desc">
+                                    <div class="question">Год выхода:</div>
+                                    <div class="ans">2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Жанр:</div>
+                                    <div class="ans">Триллеры, Новинки кино, Фильмы 2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Режиссер:</div>
+                                    <div class="ans">Оливия Уайлд</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">В ролях:</div>
+                                    <div class="ans">Крис Пайн, Флоренс Пью, Оливия Уайлд, Джемма Чан, Гарри Стайлс, Ник Кролл, Дуглас Смит, Тимоти С.</div>
+                                </div>
+                                <hr style="color: gray;">
+                                <p class="d-flex align-items-top" style="font-size: 11px;">События остросюжетного триллера «Не волнуйся, солнышко» разворачиваются в 50-е годы прошлого века в небольшом закрытом американском городке. Подобные населенные пункты тех времен носили...</p>
+                            </div>
+                            <div class="end-of-day">
+                                <div class="part-of-1">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>20 октября 2022</p>
+                                </div>
+                                <div class="part-of-2">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>Коментариев: 2</p>
+                                </div>
+                                <div class="btn-smotret">
+                                    <img src="images/opt_menu.png" alt="">
+                                    <img class="img-smotret" src="images/btn-smotret.png" alt="">
+                                    <a class="btn-smotret-a" href="#">Смотреть</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="film-of-day">
+                        <div class="img-of-day-div">
+                            <img class="img-of-day" src="images/img10.html" alt="">
+                            <div class="hover-play">
+                                <img class="img-of-play" src="images/play-button.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-of-day">
+                            <div class="tittle">
+                                <p class="tittle-of-day">Черный адам (2022)</p>
+                                <p class="hd-of-day">TS</p>
+                            </div>
+                            <div class="description-of-day">
+                                <div class="desc">
+                                    <div class="question">Год выхода:</div>
+                                    <div class="ans">2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Жанр:</div>
+                                    <div class="ans">Боевики, Фантастика, Фэнтези, Новинки кино, Фильмы 2022, Фильмы про супергероев марвел и дс</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Режиссер:</div>
+                                    <div class="ans">Жауме Кольет-Серра</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">В ролях:</div>
+                                    <div class="ans">Дуэйн Джонсон, Сара Шахи, Пирс Броснан, Ной Сентинео, Элдис Ходж, Марван Кензари, Куинтесса Суинделл</div>
+                                </div>
+                                <hr style="color: gray;">
+                                <p class="d-flex align-items-top" style="font-size: 12px;">Фантастический боевик «Черный Адам» - это история появления самого опасного и жесткого суперзлодея во всей вселенной. Много тысячелетий назад в Древнем Египте жил принц по имени Адам. Один...</p>
+                            </div>
+                            <div class="end-of-day">
+                                <div class="part-of-1">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>22 октября 2022</p>
+                                </div>
+                                <div class="part-of-2">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>Коментариев: 13</p>
+                                </div>
+                                <div class="btn-smotret">
+                                    <img src="images/opt_menu.png" alt="">
+                                    <img class="img-smotret" src="images/btn-smotret.png" alt="">
+                                    <a class="btn-smotret-a" href="#">Смотреть</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="film-of-day">
+                        <div class="img-of-day-div">
+                            <img class="img-of-day" src="images/img11.jpg" alt="">
+                            <div class="hover-play">
+                                <img class="img-of-play" src="images/play-button.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-of-day">
+                            <div class="tittle">
+                                <p class="tittle-of-day">Крокодил Лайл (2022)</p>
+                                <p class="hd-of-day">TS</p>
+                            </div>
+                            <div class="description-of-day">
+                                <div class="desc">
+                                    <div class="question">Год выхода:</div>
+                                    <div class="ans">2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Жанр:</div>
+                                    <div class="ans">Комедии, Приключения, Семейный, Мюзикл, Фэнтези, Новинки кино, Фильмы 2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Режиссер:</div>
+                                    <div class="ans">Джош Гордон, Уилл Спек</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">В ролях:</div>
+                                    <div class="ans">Бретт Гельман, Констанс Ву, Хавьер Бардем, Скут МакНэри, Шон Мендес, Уинслоу Фегли, Сэл Вискузо, Дон ДиПетта, Линдси Мосер,</div>
+                                </div>
+                                <hr style="color: gray;">
+                                <p class="d-flex align-items-top" style="font-size: 12px;">Главные герои фильма «Крокодил Лайл» – семейство Примм, у которых совсем недавно произошло важное событие в жизни - сбылась мечта и они купили дом в Нью-Йорке. Примм активно пытаются...</p>
+                            </div>
+                            <div class="end-of-day">
+                                <div class="part-of-1">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>21 октября 2022</p>
+                                </div>
+                                <div class="part-of-2">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>Коментариев: 4</p>
+                                </div>
+                                <div class="btn-smotret">
+                                    <img src="images/opt_menu.png" alt="">
+                                    <img class="img-smotret" src="images/btn-smotret.png" alt="">
+                                    <a class="btn-smotret-a" href="#">Смотреть</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="film-of-day">
+                        <div class="img-of-day-div">
+                            <img class="img-of-day" src="images/img15.jpg" alt="">
+                            <div class="hover-play">
+                                <img class="img-of-play" src="images/play-button.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-of-day">
+                            <div class="tittle">
+                                <p class="tittle-of-day">Игра Престолов: Дом дракона 1 сезон 1-9,10 серия (2022)</p>
+                                <p class="hd-of-day">WEB-DLRip</p>
+                            </div>
+                            <div class="description-of-day">
+                                <div class="desc">
+                                    <div class="question">Год выхода:</div>
+                                    <div class="ans">2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Жанр:</div>
+                                    <div class="ans">Сериалы, Мелодрамы, Драмы, Боевики, Приключения, Фэнтези</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Режиссер:</div>
+                                    <div class="ans">Клер Килнер, Гита Патель, Мигель Сапочник</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">В ролях:</div>
+                                    <div class="ans">Милли Олкок, Ив Бест, Эмили Кэри, Пэдди Консидайн, Оливия Кук, Райан Корр, Эмма Д'Арси, Фабьен</div>
+                                </div>
+                                <hr style="color: gray;">
+                                <p class="d-flex align-items-top" style="font-size: 12px;">Действие сериала «Дом дракона» разворачивается за двести лет до событий «Игры престолов». В центре сюжета окажутся представители двух ветвей дома Таргариенов, между которыми разразился...</p>
+                            </div>
+                            <div class="end-of-day">
+                                <div class="part-of-1">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>21 октября 2022</p>
+                                </div>
+                                <div class="part-of-2">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>Коментариев: 15</p>
+                                </div>
+                                <div class="btn-smotret">
+                                    <img src="images/opt_menu.png" alt="">
+                                    <img class="img-smotret" src="images/btn-smotret.png" alt="">
+                                    <a class="btn-smotret-a" href="#">Смотреть</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="film-of-day">
+                        <div class="img-of-day-div">
+                            <img class="img-of-day" src="images/img16.jpg" alt="">
+                            <div class="hover-play">
+                                <img class="img-of-play" src="images/play-button.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-of-day">
+                            <div class="tittle">
+                                <p class="tittle-of-day">Стрела возмездия (2022)</p>
+                                <p class="hd-of-day">HDRip</p>
+                            </div>
+                            <div class="description-of-day">
+                                <div class="desc">
+                                    <div class="question">Год выхода:</div>
+                                    <div class="ans">2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Жанр:</div>
+                                    <div class="ans">Боевики, Триллеры, Новинки кино, Фильмы 2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Режиссер:</div>
+                                    <div class="ans">Джон В. Сото</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">В ролях:</div>
+                                    <div class="ans">Джиллиан Алекси, Люк Форд, Александра Нелл, Priscilla-Anne Jacob, Ник Эткинсон, Alex Fleri, Том О'Салливан, Victoria Fleri, Райан</div>
+                                </div>
+                                <hr style="color: gray;">
+                                <p class="d-flex align-items-top" style="font-size: 12px;">Главные герои фильма «Стрела возмездия» – состоятельные американцы Кейт и Эш Мэтьюз, которые переживают сложный период в отношениях, что, в свою очередь, негативно сказывается на поведении...</p>
+                            </div>
+                            <div class="end-of-day">
+                                <div class="part-of-1">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>21 октября 2022</p>
+                                </div>
+                                <div class="part-of-2">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>Коментариев: 2</p>
+                                </div>
+                                <div class="btn-smotret">
+                                    <img src="images/opt_menu.png" alt="">
+                                    <img class="img-smotret" src="images/btn-smotret.png" alt="">
+                                    <a class="btn-smotret-a" href="#">Смотреть</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="film-of-day">
+                        <div class="img-of-day-div">
+                            <img class="img-of-day" src="images/img17.jpg" alt="">
+                            <div class="hover-play">
+                                <img class="img-of-play" src="images/play-button.png" alt="">
+                            </div>
+                        </div>
+                        <div class="text-of-day">
+                            <div class="tittle">
+                                <p class="tittle-of-day">Рэймонд и Рэй (2022)</p>
+                                <p class="hd-of-day">HDRip</p>
+                            </div>
+                            <div class="description-of-day">
+                                <div class="desc">
+                                    <div class="question">Год выхода:</div>
+                                    <div class="ans">2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Жанр:</div>
+                                    <div class="ans">Комедии, Драмы, Новинки кино, Фильмы 2022</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">Режиссер:</div>
+                                    <div class="ans">Родриго Гарсия</div>
+                                </div>
+                                <div class="desc">
+                                    <div class="question">В ролях:</div>
+                                    <div class="ans">Итан Хоук, Юэн Макгрегор, Софи Оконедо, Вонди Кёртис-Холл, Марибель Верду, Том Бауэр, Тодд Луисо, Gina Jun, Лаура Линда</div>
+                                </div>
+                                <hr style="color: gray;">
+                                <p class="d-flex align-items-top" style="font-size: 12px;">Главные герои фильма «Рэймонд и Рэй» – сводные братья, которые никогда не ладили друг с другом. Рэй и Рэймонд вынуждены встретиться на похоронах своего отца, с которым у них тоже никогда не...</p>
+                            </div>
+                            <div class="end-of-day">
+                                <div class="part-of-1">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>21 октября 2022</p>
+                                </div>
+                                <div class="part-of-2">
+                                    <img class="tochka" src="images/opt_menu.png" alt="">
+                                    <p>Коментариев: 6</p>
+                                </div>
+                                <div class="btn-smotret">
+                                    <img src="images/opt_menu.png" alt="">
+                                    <img class="img-smotret" src="images/btn-smotret.png" alt="">
+                                    <a class="btn-smotret-a" href="#">Смотреть</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pages-of-cotolog">
+                    <div class="prev-btngo">
+                        <button class="prevqo">Назад</button>
+                    </div>
+                    <div class="pages-div"> 
+                        <ul class="pages list-unstyled">
+                            <li class="li-of-pages"><button class="pages-btn1">1</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">2</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">3</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">4</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">5</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">6</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">7</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">8</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">9</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">10</button></li>
+                            <li class="li-of-pages"><button class="pages-btn1">...</button></li>
+                            <li class="li-of-pages"><button class="pages-btn">1793</button></li>
+                        </ul>
+                    </div>
+                    <div class="next-btngo">
+                        <button class="nextqo">Вперед</button>
+                    </div>
+                </div>
+                <div class="footer">
+                    <h4 class="th-end">Смотреть онлайн фильмы в хорошем качестве</h4>
+                    <p class="parag-end"> Индустрия кино может похвастаться миллионами поклонников и зрителей, в результате чего фильмы давно превратились в определенный продукт. На новинках кино бизнесмены и кинотеатры зарабатывают сотни миллиарды долларов, а зрители тратят на это времяпровождение множество средств.
+                        <br><br>
+                        Но сегодня перед Вами замечательный интернет-портал, который позволит не тратить собственные деньги и наслаждаться просмотром фильмов в режиме онлайн! Неужели не стоит устроить кинотеатр в домашних условиях?
+                        <br><br>
+                        Все фильмы можно посмотреть онлайн, а качество каждого кино всегда поразит надежной детализацией и качеством, достойным самого требовательного зрителя! Если Вы устали от низкосортных копий и записей из кинотеатров - посетите каталог данного сайта и найдите фильм по душе!
+                        <br><br>
+                        Стоит отметить, что на сайте можно увидеть фильмы разных жанров, что позволит не скучать никому - и любителям фэнтези, и ценителям комедий, и тем, кто обожает вестерны или современные боевики. Только здесь Вы найдете и классику кино, и ультрасовременные фильмы последних лет!
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="categories">
+                    <img src="images/categories.png" alt="">
+                    <p>Категории</p>
+                </div>
+                <hr>
+                <div class="select">
+                    <div style="width: 140px; font-size: 14px;">
+                        <select name="" id="">
+                            <option value="0">--Выберите год--</option>
+                            <option value="1">2013 год</option>
+                            <option value="2">2014 год</option>
+                            <option value="3">2015 год</option>
+                            <option value="4">2016 год</option>
+                            <option value="5">2017 год</option>
+                            <option value="6">2018 год</option>
+                            <option value="7">2019 год</option>
+                            <option value="8">2020 год</option>
+                            <option value="9">2021 год</option>
+                            <option value="10">2022 год</option>
+                        </select>
+                    </div>
+                </div>
+                <hr>
+                <div class="category-name">
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot" style="color: blue;">Новинки кино</button>
+                        <button class="btn-of-cot" style="color: red;">Сериалы</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot" style="color: green;">Сериалы с Каз.ТВ</button>
+                        <button class="btn-of-cot" style="color: green;">ТВ-шоу, передачы</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot" style="color: blue;">Азиатские сериалы</button>
+                        <button class="btn-of-cot" style="color: red;">Турецкие сериалы</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Мелодрамы</button>
+                        <button class="btn-of-cot">Комедии</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Боевики</button>
+                        <button class="btn-of-cot">Драмы</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Триллеры</button>
+                        <button class="btn-of-cot">Приключения</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Фантастика</button>
+                        <button class="btn-of-cot">Мультфильмы</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Биография</button>
+                        <button class="btn-of-cot">Семейный</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Фэнтези</button>
+                        <button class="btn-of-cot">Мюзикл</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Ужасы</button>
+                        <button class="btn-of-cot">Документальные</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Мистика</button>
+                        <button class="btn-of-cot">Детектив</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Военный</button>
+                        <button class="btn-of-cot">Вестерны</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Криминал</button>
+                        <button class="btn-of-cot">История</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Аниме</button>
+                        <button class="btn-of-cot">Спорт</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Гоблинский Перевод</button>
+                        <button class="btn-of-cot">На иностранном языке</button>
+                    </div>
+                    <div class="row-of-cot">
+                        <button class="btn-of-cot">Казахстанское кино</button>
+                        <button class="btn-of-cot">Россйское кино</button>
+                    </div>
+                </div>
+                <div class="categories">
+                    <img src="images/skoro_ic.png" alt="">
+                    <p>Ожидаем</p>
+                </div>
+
+                <div class="scoro-img-div">
+                    <div class="scoro-1">
+                        <img src="images/img12.jpg" alt="">
+                        <div class="about-film"  style="height: 190px;">
+                            <b class="film-description">Фантомас (????)</b>
+                        </div>
+                    </div>
+                    <div class="scoro-2">
+                        <img src="images/img13.jpg" alt="">
+                        <div class="about-film" style="height: 190px;">
+                            <b class="film-description">Хитмэн 2 (????)</b>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="categories" style="height: 40px;">
+                    <p>ТОП Фильмов</p>
+                </div>
+
+                <div class="top-of-film">
+                    <button class="top-btn">Вышка (2022)</button>
+                    <button class="top-btn">Игра Престолов: Дом дракона 1 сезон 1-9,10 серия</button>
+                    <button class="top-btn">Жизнь по вызову 1 сезон 1-10 серия</button>
+                    <button class="top-btn">Битва экстрасенсов 23 сезон 1-7 выпуск</button>
+                    <button class="top-btn">Властелин колец: Кольца власти 1 сезон 1-8 серия</button>
+                    <button class="top-btn">Быстрее пули (2022)</button>
+                </div>
+
+                <div class="categories" style="height: 40px;">
+                    <p>Подборки кино</p>
+                </div>
+
+                <div class="main-div-podbor">
+                    <img class="img-of-podbor" src="images/img14.png" alt="">
+                    <div class="absolute-div-podbor">
+                        <button class="podbor-btn">Фильмы про Зомби</button>
+                    </div>
+                </div>
+
+                <div class="categories" style="height: 40px; margin-top: 15px;">
+                    <p>Новые сериалы</p>
+                </div>
+
+                <div class="top-of-film">
+                    <button class="top-btn">Шантарам 1 сезон 1-4 серия</button>
+                    <button class="top-btn">Игра Престолов: Дом дракона 1 сезон 1-9,10 серия</button>
+                    <button class="top-btn">Уравнитель 3 сезон 1-4 серия</button>
+                    <button class="top-btn">Новичок / Новобранец 5 сезон 1-5 серия</button>
+                    <button class="top-btn">Морская полиция: Лос-Анджелес 14 сезон 1-3 серия</button>
+                    <button class="top-btn">Девушки с Макаровым 3 сезон 1,2 серия</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <div class="rel-top-btn">
+        <a href="#" class="topbutton"></a>
+        <div class="verx"> <a href="#" style="text-decoration: none;"><p style="color: white; font-size: 13px; margin-top: 5px;"> Наверх </p> </a> </div>
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

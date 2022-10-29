@@ -1,0 +1,10 @@
+body{
+	background-color: black;
+}
+p{
+	margin: 0;
+	font-family:Tahoma,Geneva, sans-serif;
+}
+li {
+	list-style-type: none;
+ }
